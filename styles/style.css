@@ -4,6 +4,7 @@ body {
   font-family: Arial;
 }
 
+/* Scroll snap laten werken */
 .body {
   display: flex;
   flex-direction: column;
@@ -21,12 +22,6 @@ body {
   scroll-snap-align: center center;
 }
 
-.page1 {
-  background: url(https://i.pinimg.com/564x/ee/f6/a8/eef6a844aeb216410712a4e99c119074.jpg)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-}
-
 .hor-slider {
   display: flex;
   overflow-x: auto;
@@ -34,27 +29,61 @@ body {
   scroll-snap-type: x mandatory;
 }
 
-.page2 {
-/*   background-color: orange; */
+/* Styling van de losse pagina's */
+.pageIntro {
+  background-color: orange;
+}
+
+/* Algemene uitleg horizontaal */
+.page1hor {
+  background-color: seagreen;
+}
+
+.page2hor {
+  background-color: seagreen;
+}
+
+.page3hor {
+  background-color: seagreen;
+}
+
+/* diepte Mozambique */
+.page1ver {
   background: url(./images/Mozambique1.png)
     no-repeat center center fixed;
   -webkit-background-size: cover;
 }
 
-.page3 {
+.page2ver {
   background-color: seagreen;
 }
 
-.page4 {
-  background: url(https://i.pinimg.com/564x/83/38/13/833813f4140ccd66fd4918c406aabbb4.jpg)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-}
-
-.page5 {
+.page3ver {
   background-color: seagreen;
 }
 
+.page4ver {
+  background-color: seagreen;
+}
+
+.page5ver {
+  background-color: seagreen;
+}
+
+/* adviezen Mozambique */
+.pageAhor {
+  background-color: seagreen;
+}
+
+.pageBhor {
+  background-color: seagreen;
+}
+
+.pageChor {
+  background-color: seagreen;
+}
+
+/* scrollbar weg */
 .body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
@@ -63,6 +92,7 @@ body {
     display: none; /* for Chrome, Safari, and Opera */
 }
 
+/* algemene styling pages */
 section {
   padding: 2em;
 }
