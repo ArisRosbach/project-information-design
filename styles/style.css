@@ -43,7 +43,7 @@ body {
 
 /* Styling van de losse pagina's */
 .pageIntro {
-  background-image: url(/images/pageAhor.png);
+  background-image: url(./images/pageAhor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -51,14 +51,14 @@ body {
 
 /* Algemene uitleg horizontaal */
 .page1hor {
-  background-image: url(/images/pageBhor.png);
+  background-image: url(./images/pageBhor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .page2hor {
-  background-image: url(/images/pageChor.png);
+  background-image: url(./images/pageChor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -70,7 +70,7 @@ body {
 
 /* diepte Mozambique */
 .page1ver {
-  background-image: url(/images/page1ver.png);
+  background-image: url(./images/page1ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -97,7 +97,7 @@ body {
 }
 
 .page2ver {
-  background-image: url(/images/page2ver.png);
+  background-image: url(./images/page2ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -161,21 +161,21 @@ body {
 
 /* adviezen Mozambique */
 .pageAhor {
-  background-image: url(/images/pageAhor.png);
+  background-image: url(./images/pageAhor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .pageBhor {
-  background-image: url(/images/pageBhor.png);
+  background-image: url(./images/pageBhor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .pageChor {
-  background-image: url(/images/pageChor.png);
+  background-image: url(./images/pageChor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
