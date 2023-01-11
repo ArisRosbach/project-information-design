@@ -57,7 +57,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    background-image: url(./images/Intro.png);
+    background-image: url(./images/page2ver.png);
     background-size: cover;
     scroll-snap-align: center;
 }
@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    background-image: url(./images/Mozambique1.png);
+    background-image: url(./images/page1ver.png);
     background-size: cover;
     scroll-snap-align: center;
   }
@@ -127,7 +127,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    background-image: url(./images/Mozambique2.png);
+    background-image: url(./images/page2ver.png);
     background-size: cover;
 
     scroll-snap-align: center;
