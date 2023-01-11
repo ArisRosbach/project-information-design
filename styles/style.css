@@ -19,17 +19,11 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
   height: 100vh;
-  /* scroll-snap-type: y mandatory; */
-
-  scroll-behavior: smooth;
 
   scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
-
-  /* background: url(./images/AchtergrondTest.png);
-    background-attachment: local;
-    background-size: cover; */
+  scroll-behavior: smooth;
 }
 
 .page {
@@ -76,11 +70,6 @@ body {
 
 /* diepte Mozambique */
 .page1ver {
-  /* background: url(/images/page1ver.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top; */
-
   background-image: url(/images/page1ver.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -108,11 +97,6 @@ body {
 }
 
 .page2ver {
-  /* background: url(./images/Mozambique2.png)
-    no-repeat center center fixed;
-  background-size: cover; */
-
- 
   background-image: url(/images/page2verKaas.png);
   background-size: cover;
   background-repeat: no-repeat;
