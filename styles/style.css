@@ -70,7 +70,7 @@ body {
 
 /* diepte Mozambique */
 .page1ver {
-  background-image: url(/images/page1ver.png);
+  background-image: url(/images/verticaal1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -97,13 +97,20 @@ body {
 }
 
 .page2ver {
-  background-image: url(/images/page2ver.png);
+  background-image: url(/images/verticaal2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .page3ver {
+  background-image: url(/images/verticaal3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.page4ver {
   background-color: #93C9DB;
   position: relative;
 }
@@ -129,13 +136,13 @@ body {
   left: 0;
 }
 
-.page3ver img {
+.page4ver img {
   /* height: 100vh; */
   /* position: absolute; */
   object-fit: cover;
 }
 
-.page3ver section {
+.page4ver section {
   position: absolute;
 }
 
@@ -163,42 +170,49 @@ body {
   }
 } */
 
-.page4ver {
+.page5ver {
   background-color: #93C9DB;
   position: relative;
 }
 
 
-.page4ver img {
+.page5ver img {
   height: 100vh;
   position: absolute;
 }
 
-.page4ver section {
+.page5ver section {
   position: absolute;
 }
 
-.page5ver {
+.page6ver {
+  background-image: url(/images/verticaal5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.page7ver {
   background-color: seagreen;
 }
 
 /* adviezen Mozambique */
 .pageAhor {
-  background-image: url(/images/pageAhor.png);
+  background-image: url(/images/horizontaal1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .pageBhor {
-  background-image: url(/images/pageBhor.png);
+  background-image: url(/images/horizontaal2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .pageChor {
-  background-image: url(/images/pageChor.png);
+  background-image: url(/images/horizontaal3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
