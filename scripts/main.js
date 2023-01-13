@@ -13,33 +13,108 @@ console.log(data);
 
 
 
-const home = document.getElementById("item-home");
+const intro = document.getElementById("item-intro");
 const uitleg1 = document.getElementById("item-uitleg1");
 const uitleg2 = document.getElementById("item-uitleg2");
 const uitleg3 = document.getElementById("item-uitleg3");
-const button = document.getElementById("button");
-const button1 = document.getElementById("button1");
-const button2 = document.getElementById("button2");
-const button3 = document.getElementById("button3");
 
-button.addEventListener("click", () => {
+const mozam1 = document.getElementById("item-mozam1");
+const mozam2 = document.getElementById("item-mozam2");
+const mozam3 = document.getElementById("item-mozam3");
+const mozam4 = document.getElementById("item-mozam4");
+const mozam5 = document.getElementById("item-mozam5");
+const mozam6 = document.getElementById("item-mozam6");
+
+const advies1 = document.getElementById("item-advies1");
+const advies2 = document.getElementById("item-advies2");
+const advies3 = document.getElementById("item-advies3");
+
+
+const buttonIntroHor = document.getElementById("buttonIntroHor");
+const buttonIntroVer = document.getElementById("buttonIntroVer");
+const button1hor = document.getElementById("button1hor");
+const button2hor = document.getElementById("button2hor");
+const button3hor = document.getElementById("button3hor");
+
+const button1ver = document.getElementById("button1ver");
+const button2ver = document.getElementById("button2ver");
+const button3ver = document.getElementById("button3ver");
+const button4ver = document.getElementById("button4ver");
+const button5ver = document.getElementById("button5ver");
+const button6ver = document.getElementById("button6ver");
+
+const buttonAhor = document.getElementById("buttonAhor");
+const buttonBhor = document.getElementById("buttonBhor");
+const buttonChor = document.getElementById("buttonChor");
+
+buttonIntroHor.addEventListener("click", () => {
   console.log("button clicker");
   uitleg1.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button1.addEventListener("click", () => {
+button1hor.addEventListener("click", () => {
   console.log("button clicker");
   uitleg2.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button2.addEventListener("click", () => {
+button2hor.addEventListener("click", () => {
   console.log("button clicker");
   uitleg3.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button3.addEventListener("click", () => {
+button3hor.addEventListener("click", () => {
   console.log("button clicker");
-  home.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  intro.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonIntroVer.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button1ver.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam2.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button2ver.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam3.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button3ver.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam4.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button4ver.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam5.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button5ver.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam6.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button6ver.addEventListener("click", () => {
+  console.log("button clicker");
+  advies1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonAhor.addEventListener("click", () => {
+  console.log("button clicker");
+  advies2.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonBhor.addEventListener("click", () => {
+  console.log("button clicker");
+  advies3.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonChor.addEventListener("click", () => {
+  console.log("button clicker");
+  advies1.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 // function reveal() {
