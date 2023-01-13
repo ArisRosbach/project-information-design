@@ -43,25 +43,31 @@ body {
 
 /* Styling van de losse pagina's */
 .pageIntro {
-  background-image: url(/images/pageAhor.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
+  background-color: seagreen;
+  
+  /* background-image: url(/images/pageAhor.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: left top; */
 }
 
 /* Algemene uitleg horizontaal */
 .page1hor {
-  background-image: url(/images/pageBhor.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
+  background-color: seagreen;
+  
+  /* background-image: url(/images/pageAhor.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: left top; */
 }
 
 .page2hor {
-  background-image: url(/images/pageChor.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
+  background-color: seagreen;
+  
+  /* background-image: url(/images/pageAhor.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: left top; */
 }
 
 .page3hor {
@@ -70,7 +76,7 @@ body {
 
 /* diepte Mozambique */
 .page1ver {
-  background-image: url(/images/verticaal1.png);
+  background-image: url(/images/Page1ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -97,14 +103,14 @@ body {
 }
 
 .page2ver {
-  background-image: url(/images/verticaal2.png);
+  background-image: url(/images/Page2ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .page3ver {
-  background-image: url(/images/verticaal3.png);
+  background-image: url(/images/Page3ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -178,7 +184,9 @@ body {
 
 .page5ver img {
   height: 100vh;
+  width: 100%;
   position: absolute;
+  object-fit: cover;
 }
 
 .page5ver section {
@@ -186,7 +194,8 @@ body {
 }
 
 .page6ver {
-  background-image: url(/images/verticaal5.png);
+  background-color: #93C9DB;
+  background-image: url(/images/Page6ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -198,21 +207,21 @@ body {
 
 /* adviezen Mozambique */
 .pageAhor {
-  background-image: url(/images/horizontaal1.png);
+  background-image: url(/images/PageAhor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .pageBhor {
-  background-image: url(/images/horizontaal2.png);
+  background-image: url(/images/PageBhor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
 .pageChor {
-  background-image: url(/images/horizontaal3.png);
+  background-image: url(/images/PageChor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
