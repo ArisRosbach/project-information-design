@@ -24,6 +24,8 @@ const mozam3 = document.getElementById("item-mozam3");
 const mozam4 = document.getElementById("item-mozam4");
 const mozam5 = document.getElementById("item-mozam5");
 const mozam6 = document.getElementById("item-mozam6");
+const mozam7 = document.getElementById("item-mozam7");
+const mozam8 = document.getElementById("item-mozam8");
 
 const advies1 = document.getElementById("item-advies1");
 const advies2 = document.getElementById("item-advies2");
@@ -42,6 +44,8 @@ const button3ver = document.getElementById("button3ver");
 const button4ver = document.getElementById("button4ver");
 const button5ver = document.getElementById("button5ver");
 const button6ver = document.getElementById("button6ver");
+const button7ver = document.getElementById("button7ver");
+const button8ver = document.getElementById("button8ver");
 
 const buttonAhor = document.getElementById("buttonAhor");
 const buttonBhor = document.getElementById("buttonBhor");
@@ -98,6 +102,16 @@ button5ver.addEventListener("click", () => {
 });
 
 button6ver.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam7.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button7ver.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam8.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button8ver.addEventListener("click", () => {
   console.log("button clicker");
   advies1.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
