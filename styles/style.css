@@ -51,31 +51,30 @@ body {
   background-position: left top;
 }
 
-.pageIntro h1 {
+.hor-slider h1 {
   color: black;
 }
 
 /* Algemene uitleg horizontaal */
 .page1hor {
-  background-color: seagreen;
-  
-  /* background-image: url(/images/pageAhor.png); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: left top; */
+  background-image: url(/images/page1hor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .page2hor {
-  background-color: seagreen;
-  
-  /* background-image: url(/images/pageAhor.png); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: left top; */
+  background-image: url(/images/page1hor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .page3hor {
-  background-color: seagreen;
+  background-image: url(/images/page1hor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 /* diepte Mozambique */
