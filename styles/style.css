@@ -52,7 +52,20 @@ h1 {
   scroll-snap-type: x mandatory;
 }
 
+.buttonUp {
+  cursor: pointer;
+  position: absolute;
+  top: 5em;
+  text-align: center;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 1;
+}
+
 .buttonDown {
+  cursor: pointer;
   position: absolute;
   bottom: 0em;
   text-align: center;
@@ -64,12 +77,31 @@ h1 {
 }
 
 .buttonRight {
+  cursor: pointer;
   position: absolute;
   right: 0em;
   text-align: center;
 
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.buttonLeft {
+  cursor: pointer;
+  position: absolute;
+  left: 5em;
+  text-align: center;
+
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonBack {
+  cursor: pointer;
+  position: absolute;
+  right: 2em;
+  top: 2em;
+  text-align: center;
 }
 
 /* Styling van de losse pagina's */
@@ -246,6 +278,16 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
+}
+
+.pageEinde {
+
+  background-color: #93C9DB;
+
+  /* background-image: url(/images/pageChor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top; */
 }
 
 /* scrollbar weg */

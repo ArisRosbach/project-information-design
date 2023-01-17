@@ -12,7 +12,7 @@ let data = count(5, 5);
 console.log(data);
 
 
-
+// pagina's
 const intro = document.getElementById("item-intro");
 const uitleg1 = document.getElementById("item-uitleg1");
 const uitleg2 = document.getElementById("item-uitleg2");
@@ -33,44 +33,49 @@ const advies3 = document.getElementById("item-advies3");
 
 const einde = document.getElementById("item-einde");
 
-
+// buttons
 const buttonIntroHor = document.getElementById("buttonIntroHor");
 const buttonIntroVer = document.getElementById("buttonIntroVer");
-const button1hor = document.getElementById("button1hor");
-const button2hor = document.getElementById("button2hor");
-const button3hor = document.getElementById("button3hor");
 
-const button1ver = document.getElementById("button1ver");
-const button2ver = document.getElementById("button2ver");
-const button3ver = document.getElementById("button3ver");
-const button4ver = document.getElementById("button4ver");
-const button5ver = document.getElementById("button5ver");
-const button6ver = document.getElementById("button6ver");
-const button7ver = document.getElementById("button7ver");
-const button8ver = document.getElementById("button8ver");
+const button1horR = document.getElementById("button1horR");
+const button2horR = document.getElementById("button2horR");
+const button3horR = document.getElementById("button3horR");
+const button1horL = document.getElementById("button1horL");
+const button2horL = document.getElementById("button2horL");
+const button3horL = document.getElementById("button3horL");
 
-const buttonAhor = document.getElementById("buttonAhor");
-const buttonBhor = document.getElementById("buttonBhor");
-const buttonChor = document.getElementById("buttonChor");
+const button1verD = document.getElementById("button1verD");
+const button2verD = document.getElementById("button2verD");
+const button3verD = document.getElementById("button3verD");
+const button4verD = document.getElementById("button4verD");
+const button5verD = document.getElementById("button5verD");
+const button6verD = document.getElementById("button6verD");
+const button7verD = document.getElementById("button7verD");
+const button8verD = document.getElementById("button8verD");
+const button1verU = document.getElementById("button1verU");
+const button2verU = document.getElementById("button2verU");
+const button3verU = document.getElementById("button3verU");
+const button4verU = document.getElementById("button4verU");
+const button5verU = document.getElementById("button5verU");
+const button6verU = document.getElementById("button6verU");
+const button7verU = document.getElementById("button7verU");
+const button8verU = document.getElementById("button8verU");
 
+const buttonAhorR = document.getElementById("buttonAhorR");
+const buttonBhorR = document.getElementById("buttonBhorR");
+const buttonChorR = document.getElementById("buttonChorR");
+const buttonAhorU = document.getElementById("buttonAhorU");
+const buttonBhorL = document.getElementById("buttonBhorL");
+const buttonChorL = document.getElementById("buttonChorL");
+
+const buttonEindeL = document.getElementById("buttonEindeL");
+const buttonEindeB = document.getElementById("buttonEindeB");
+
+
+// Intro buttons
 buttonIntroHor.addEventListener("click", () => {
   console.log("button clicker");
   uitleg1.scrollIntoView({ behavior: 'smooth', block: 'center' });
-});
-
-button1hor.addEventListener("click", () => {
-  console.log("button clicker");
-  uitleg2.scrollIntoView({ behavior: 'smooth', block: 'center' });
-});
-
-button2hor.addEventListener("click", () => {
-  console.log("button clicker");
-  uitleg3.scrollIntoView({ behavior: 'smooth', block: 'center' });
-});
-
-button3hor.addEventListener("click", () => {
-  console.log("button clicker");
-  intro.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 buttonIntroVer.addEventListener("click", () => {
@@ -78,57 +83,162 @@ buttonIntroVer.addEventListener("click", () => {
   mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button1ver.addEventListener("click", () => {
+// Horizontaal 1 Right
+button1horR.addEventListener("click", () => {
+  console.log("button clicker");
+  uitleg2.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button2horR.addEventListener("click", () => {
+  console.log("button clicker");
+  uitleg3.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button3horR.addEventListener("click", () => {
+  console.log("button clicker");
+  intro.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+// Horizontaal 1 Left
+button1horL.addEventListener("click", () => {
+  console.log("button clicker");
+  intro.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button2horL.addEventListener("click", () => {
+  console.log("button clicker");
+  uitleg1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button3horL.addEventListener("click", () => {
+  console.log("button clicker");
+  uitleg2.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+
+
+// Verticaal Down
+button1verD.addEventListener("click", () => {
   console.log("button clicker");
   mozam2.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button2ver.addEventListener("click", () => {
+button2verD.addEventListener("click", () => {
   console.log("button clicker");
   mozam3.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button3ver.addEventListener("click", () => {
+button3verD.addEventListener("click", () => {
   console.log("button clicker");
   mozam4.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button4ver.addEventListener("click", () => {
+button4verD.addEventListener("click", () => {
   console.log("button clicker");
   mozam5.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button5ver.addEventListener("click", () => {
+button5verD.addEventListener("click", () => {
   console.log("button clicker");
   mozam6.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button6ver.addEventListener("click", () => {
+button6verD.addEventListener("click", () => {
   console.log("button clicker");
   mozam7.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button7ver.addEventListener("click", () => {
+button7verD.addEventListener("click", () => {
   console.log("button clicker");
   mozam8.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button8ver.addEventListener("click", () => {
+button8verD.addEventListener("click", () => {
   console.log("button clicker");
   advies1.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-buttonAhor.addEventListener("click", () => {
+// Verticaal Up
+button1verU.addEventListener("click", () => {
+  console.log("button clicker");
+  intro.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button2verU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button3verU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam2.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button4verU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam3.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button5verU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam4.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button6verU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam5.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button7verU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam6.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button8verU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam7.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+// Horizontaal 2 Up
+buttonAhorU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam8.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+// Horizontaal 2 Right
+buttonAhorR.addEventListener("click", () => {
   console.log("button clicker");
   advies2.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-buttonBhor.addEventListener("click", () => {
+buttonBhorR.addEventListener("click", () => {
   console.log("button clicker");
   advies3.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-buttonChor.addEventListener("click", () => {
+buttonChorR.addEventListener("click", () => {
   console.log("button clicker");
   einde.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+// Horizontaal 2 Left
+buttonBhorL.addEventListener("click", () => {
+  console.log("button clicker");
+  advies1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonChorL.addEventListener("click", () => {
+  console.log("button clicker");
+  advies2.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+// Einde Back
+buttonEindeL.addEventListener("click", () => {
+  console.log("button clicker");
+  advies3.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonEindeB.addEventListener("click", () => {
+  console.log("button clicker");
+  intro.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
