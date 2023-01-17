@@ -10,11 +10,17 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'Merriweather', serif;
-  
+
 }
 
-body h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
 }
 
 /* Scroll snap laten werken */
@@ -36,7 +42,7 @@ body h1, h2, h3 {
   height: 100%;
   flex: 0 0 auto;
   scroll-snap-align: center center;
-
+  position: relative;
 }
 
 .hor-slider {
@@ -46,18 +52,39 @@ body h1, h2, h3 {
   scroll-snap-type: x mandatory;
 }
 
+.buttonDown {
+  position: absolute;
+  bottom: 0em;
+  text-align: center;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 1;
+}
+
+.buttonRight {
+  position: absolute;
+  right: 0em;
+  text-align: center;
+
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Styling van de losse pagina's */
+/* ********************************************* */
+
+/* Intro pagina */
 .pageIntro {
-  /* background-color: seagreen; */
-  
   background-image: url(/images/pageIntro.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 }
 
-.hor-slider h1 {
-  color: black;
+.pageIntro .buttonDown {
+  color: white;
 }
 
 /* Algemene uitleg horizontaal */
@@ -98,7 +125,7 @@ body h1, h2, h3 {
 
 .page1ver section div:first-of-type {
   width: 45%;
-    margin: 1em 0em 0em 7em;
+  margin: 1em 0em 0em 7em;
 }
 
 .page1ver section div:first-of-type p {
@@ -107,7 +134,7 @@ body h1, h2, h3 {
 
 .page1ver section div:last-of-type {
   width: 20%;
-    margin: 10em 4em 4em 11em;
+  margin: 10em 4em 4em 11em;
 }
 
 .page2ver {
@@ -133,7 +160,7 @@ body h1, h2, h3 {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   border: 1px solid black;
 }
 
@@ -160,37 +187,13 @@ body h1, h2, h3 {
   position: absolute;
 }
 
-/* .reveal {
-  position: relative;
-  opacity: 0;
-}
-
-.reveal.active {
-  opacity: 1;
-}
-
-.active.fade-left {
-  animation: fade-left 1s ease-in;
-}
-
-@keyframes fade-left {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-} */
-
 .page5ver {
   background-color: #93C9DB;
   position: relative;
 }
 
 
-.page5ver img {
+#page5verImg {
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -247,7 +250,7 @@ body h1, h2, h3 {
 
 /* scrollbar weg */
 .body::-webkit-scrollbar {
-  display: none; 
+  display: none;
   /* for Chrome, Safari, and Opera */
 }
 
@@ -259,32 +262,4 @@ body h1, h2, h3 {
 /* algemene styling pages */
 section {
   padding: 2em;
-}
-
-h1 {
-  font-size: 4em;
-  color: white;
-}
-
-p {
-  color: white;
-}
-
-.button {
-  background-color: #fff;
-  border: none;
-  color: #000;
-  padding: 1em 2em;
-  margin: 2em 0em;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.gif {
-  display: flex;
-  margin: 3em auto;
-  width: 30em;
 }

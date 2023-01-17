@@ -31,6 +31,8 @@ const advies1 = document.getElementById("item-advies1");
 const advies2 = document.getElementById("item-advies2");
 const advies3 = document.getElementById("item-advies3");
 
+const einde = document.getElementById("item-einde");
+
 
 const buttonIntroHor = document.getElementById("buttonIntroHor");
 const buttonIntroVer = document.getElementById("buttonIntroVer");
@@ -128,23 +130,5 @@ buttonBhor.addEventListener("click", () => {
 
 buttonChor.addEventListener("click", () => {
   console.log("button clicker");
-  advies1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  einde.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
-
-// function reveal() {
-//   var reveals = document.querySelectorAll(".reveal");
-
-//   for (var i = 0; i < reveals.length; i++) {
-//     var windowHeight = window.innerHeight;
-//     var elementTop = reveals[i].getBoundingClientRect().top;
-//     var elementVisible = 150;
-
-//     if (elementTop < windowHeight - elementVisible) {
-//       reveals[i].classList.add("active");
-//     } else {
-//       reveals[i].classList.remove("active");
-//     }
-//   }
-// }
-
-// window.addEventListener("scroll", reveal);
