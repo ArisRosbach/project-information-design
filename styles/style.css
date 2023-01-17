@@ -244,9 +244,16 @@ p {
   color: white;
 }
 
-.page3ver section{
+.page3ver section p {
   max-width: 45em;
-  margin: 6em 0em 0em 8em
+  margin: 6em 0em 4em 8em;
+}
+
+.page3ver section img {
+  width: 55em;
+  padding: 2em;
+  display: block;
+  margin: auto;
 }
 
 /* Pagina 3 verticaal diepte */
