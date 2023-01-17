@@ -256,8 +256,7 @@ p {
   margin: auto;
 }
 
-/* Pagina 3 verticaal diepte */
-
+/* Pagina 4 verticaal diepte */
 .page4ver {
   background-color: #93C9DB;
   position: relative;
@@ -285,20 +284,25 @@ p {
 }
 
 .page4ver img {
-  /* height: 100vh; */
-  /* position: absolute; */
   object-fit: cover;
 }
 
 .page4ver section {
   position: absolute;
+  right: 0em;
+  max-width: 40em;
+  margin: 5em 5em 0em 0em;
 }
 
+.page4ver section p {
+  padding: 1em 0em;
+}
+
+/* Pagina 5 verticaal diepte */
 .page5ver {
   background-color: #93C9DB;
   position: relative;
 }
-
 
 #page5verImg {
   height: 100vh;
@@ -311,6 +315,7 @@ p {
   position: absolute;
 }
 
+/* Pagina 6 verticaal diepte */
 .page6ver {
   background-color: #93C9DB;
   background-image: url(/images/page6ver.png);
