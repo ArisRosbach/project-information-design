@@ -240,7 +240,16 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
+
+  color: white;
 }
+
+.page3ver section{
+  max-width: 45em;
+  margin: 6em 0em 0em 8em
+}
+
+/* Pagina 3 verticaal diepte */
 
 .page4ver {
   background-color: #93C9DB;
