@@ -202,9 +202,37 @@ p {
   background-position: left top;
 
   color: white;
+  position: relative;
 }
 
+.page2ver section {
+  position: absolute;
+  max-width: 40em;
+  right: 0em;
+  margin: 7em 5em 0em 0em;
+}
 
+.page2ver section div {
+  margin: 5em;
+  text-align: center;
+}
+
+.page2ver section div p {
+  width: 20em;
+  color: black;
+  background-color: #D88086;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin: 0.8em;
+}
+
+.page2ver section div p:nth-of-type(2) {
+  background-color: #D9BC2C;
+}
+
+.page2ver section div p:nth-of-type(3) {
+  background-color: #9991BB;
+}
 
 /* Pagina 3 verticaal diepte */
 .page3ver {
