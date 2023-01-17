@@ -19,10 +19,11 @@ h3 {
 }
 
 h1 {
-  font-size: 2.8em;
+  font-size: 2.5em;
 }
 
 p {
+  font-size: 0.8em;
   word-spacing: 4px;
 }
 
@@ -55,11 +56,16 @@ p {
   scroll-snap-type: x mandatory;
 }
 
-.buttonUp {
+.button {
   cursor: pointer;
   position: absolute;
-  top: 5em;
   text-align: center;
+
+  width: 2em;
+}
+
+.buttonUp {
+  top: 2em;
 
   left: 50%;
   transform: translate(-50%, -50%);
@@ -68,10 +74,7 @@ p {
 }
 
 .buttonDown {
-  cursor: pointer;
-  position: absolute;
   bottom: 0em;
-  text-align: center;
 
   left: 50%;
   transform: translate(-50%, -50%);
@@ -80,31 +83,22 @@ p {
 }
 
 .buttonRight {
-  cursor: pointer;
-  position: absolute;
   right: 0em;
-  text-align: center;
 
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
 .buttonLeft {
-  cursor: pointer;
-  position: absolute;
-  left: 5em;
-  text-align: center;
+  left: 2em;
 
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
 .buttonBack {
-  cursor: pointer;
-  position: absolute;
   right: 2em;
   top: 2em;
-  text-align: center;
 }
 
 /* Styling van de losse pagina's */
@@ -118,6 +112,19 @@ p {
   background-position: left top;
 }
 
+.pageIntro .buttonDown {
+  color: white;
+  position: absolute;
+  text-align: center;
+  bottom: 2em;
+}
+
+.pageIntro .buttonRight {
+  position: absolute;
+  text-align: center;
+  right: -7em;
+}
+
 .buttonIntro {
   display: flex;
   align-items: center;
@@ -127,26 +134,21 @@ p {
   padding: 0em;
 }
 
-.pageIntro .buttonDown {
-  color: white;
-  bottom: -1em;
-}
-
-.pageIntro .buttonRight {
-  right: -8em;
+.buttonIntro img {
+  position: relative;
 }
 
 .pageIntro section {
-  max-width: 50em;
-  margin: 10em 0em 0em 10em
+  max-width: 45em;
+  margin: 8em 0em 0em 8em
 }
 
 .pageIntro section h1 {
-  padding: 0em 0em 2em;
+  padding: 0em 0em 1em;
 }
 
 .pageIntro section p:nth-of-type(2) {
-  padding: 2em 0em 1em;
+  padding: 1em 0em 1em;
 }
 
 /* Pagina 1 horizontaal algemeen */
@@ -179,12 +181,13 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
+
+  color: white;
 }
 
 .page1ver section {
-  color: white;
-  max-width: 50em;
-  margin: 10em 0em 0em 10em
+  max-width: 45em;
+  margin: 6em 0em 0em 8em
 }
 
 .page1ver section p {
@@ -197,7 +200,11 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
+
+  color: white;
 }
+
+
 
 /* Pagina 3 verticaal diepte */
 .page3ver {
