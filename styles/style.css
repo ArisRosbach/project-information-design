@@ -47,6 +47,7 @@ p {
   flex: 0 0 auto;
   scroll-snap-align: center center;
   position: relative;
+  overflow: hidden;
 }
 
 .hor-slider {
