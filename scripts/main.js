@@ -43,6 +43,9 @@ const button3horR = document.getElementById("button3horR");
 const button1horL = document.getElementById("button1horL");
 const button2horL = document.getElementById("button2horL");
 const button3horL = document.getElementById("button3horL");
+const button1horD = document.getElementById("button1horD");
+const button2horD = document.getElementById("button2horD");
+const button3horD = document.getElementById("button3horD");
 
 const button1verD = document.getElementById("button1verD");
 const button2verD = document.getElementById("button2verD");
@@ -65,6 +68,8 @@ const buttonAhorR = document.getElementById("buttonAhorR");
 const buttonBhorR = document.getElementById("buttonBhorR");
 const buttonChorR = document.getElementById("buttonChorR");
 const buttonAhorU = document.getElementById("buttonAhorU");
+const buttonBhorU = document.getElementById("buttonBhorU");
+const buttonChorU = document.getElementById("buttonChorU");
 const buttonBhorL = document.getElementById("buttonBhorL");
 const buttonChorL = document.getElementById("buttonChorL");
 
@@ -133,6 +138,21 @@ button3horL.addEventListener("click", () => {
   uitleg2.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
+// Horizontaal 1 Down
+button1horD.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button2horD.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+button3horD.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
 
 
 // Verticaal Down
@@ -219,6 +239,16 @@ button8verU.addEventListener("click", () => {
 
 // Horizontaal 2 Up
 buttonAhorU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam8.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonBhorU.addEventListener("click", () => {
+  console.log("button clicker");
+  mozam8.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+buttonChorU.addEventListener("click", () => {
   console.log("button clicker");
   mozam8.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
