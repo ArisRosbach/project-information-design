@@ -377,7 +377,7 @@ p {
 }
 
 .page7ver .measures div {
-  padding-inline-start: 1em; 
+  padding-inline-start: 1em;
 }
 
 /* Pagina 8 verticaal diepte */
@@ -400,7 +400,7 @@ p {
 }
 
 
-/* adviezen Mozambique */
+/* advies Mozambique A*/
 .pageAhor {
   background-image: url(/images/pageAhor.png);
   background-size: cover;
@@ -408,6 +408,16 @@ p {
   background-position: left top;
 }
 
+.pageAhor section {
+  max-width: 45em;
+  margin: 6em 0em 0em 20em;
+}
+
+.pageAhor section p {
+  padding: 1em 0em 1em;
+}
+
+/* advies Mozambique B */
 .pageBhor {
   background-image: url(/images/pageBhor.png);
   background-size: cover;
@@ -415,6 +425,35 @@ p {
   background-position: left top;
 }
 
+.pageBhor section {
+  display: flex;
+  justify-content: space-around;
+  margin: 3em 0em 0em 0em;
+}
+
+.pageBhor section p {
+  padding: 1em 0em;
+}
+
+.advices {
+  display: flex;
+  align-items: flex-start;
+  margin: 2em 0em;
+}
+
+.advices h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 6em;
+  font-weight: 100;
+  margin: -0.3em 0em;
+}
+
+.advices div {
+  padding-inline-start: 1em;
+  max-width: 33em;
+}
+
+/* advies Mozambique C */
 .pageChor {
   background-image: url(/images/pageChor.png);
   background-size: cover;
@@ -422,6 +461,17 @@ p {
   background-position: left top;
 }
 
+.pageChor section {
+  display: flex;
+  justify-content: space-around;
+  margin: 3em 0em 0em 0em;
+}
+
+.pageChor section p {
+  padding: 1em 0em;
+}
+
+/* advies Mozambique D */
 .pageEinde {
   background-image: url(/images/pageDhor.png);
   background-size: cover;
