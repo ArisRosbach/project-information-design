@@ -182,7 +182,7 @@ p {
 }
 
 .page1ver section {
-  max-width: 45em;
+  max-width: 40em;
   margin: 6em 0em 0em 8em
 }
 
@@ -318,15 +318,56 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
+
+  color: white;
 }
 
+.page6ver section {
+  max-width: 45em;
+  margin: 6em 0em 4em 8em;
+}
+
+.page6ver section h1 {
+  padding: 1em 0em 1em;
+}
+
+
+/* Pagina 7 verticaal diepte */
 .page7ver {
   background-image: url(/images/page7ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
+
+  color: white;
 }
 
+.page7ver section {
+  max-width: 45em;
+  margin: 6em 0em 4em 8em;
+}
+
+.page7ver section p {
+  padding: 1em 0em;
+}
+
+.page7ver .measures {
+  display: flex;
+  align-items: center;
+  margin: 2em 0em;
+}
+
+.page7ver .measures h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 6em;
+  font-weight: 100;
+}
+
+.page7ver .measures div {
+  padding-inline-start: 1em; 
+}
+
+/* Pagina 8 verticaal diepte */
 .page8ver {
   background-image: url(/images/page8ver.png);
   background-size: cover;
