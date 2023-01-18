@@ -295,18 +295,21 @@ p {
   left: 0;
 }
 
-.page4ver img {
-  object-fit: cover;
-}
-
 .page4ver section {
   position: absolute;
   right: 0em;
   max-width: 37em;
-  margin: 5em 5em 0em 0em;
+  margin: 3em 4em 0em 0em;
 }
 
 .page4ver section p {
+  padding: 1em 0em;
+}
+
+.page4ver #barchart {
+  width: 33em;
+  display: block;
+  margin: auto;
   padding: 1em 0em;
 }
 
