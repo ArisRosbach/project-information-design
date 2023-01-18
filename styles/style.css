@@ -315,14 +315,10 @@ p {
 /* Pagina 5 verticaal diepte */
 .page5ver {
   background-color: #93C9DB;
-  position: relative;
-}
-
-#page5verImg {
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  object-fit: cover;
+  background-image: url(/images/page5ver.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .page5ver section {
