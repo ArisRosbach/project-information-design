@@ -64,11 +64,13 @@ p {
   transition: 0.5s;
 }
 
+.mapZ {
+  z-index: 1;
+}
+
 .mapClicked {
   cursor: pointer;
-  /* position: absolute; */
   right: -0.5em;
-  /* top: 2em; */
   transition: 0.5s;
 }
 
