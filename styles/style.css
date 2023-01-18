@@ -176,7 +176,7 @@ p {
 
 /* Pagina 2 horizontaal algemeen */
 .page2hor {
-  background-image: url(/images/page1hor.png);
+  background-image: url(/images/page2hor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -184,7 +184,7 @@ p {
 
 /* Pagina 3 horizontaal algemeen */
 .page3hor {
-  background-image: url(/images/page1hor.png);
+  background-image: url(/images/page3hor.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -265,8 +265,7 @@ p {
 }
 
 .page3ver section img {
-  width: 55em;
-  padding: 2em;
+  width: 50em;
   display: block;
   margin: auto;
 }
