@@ -344,6 +344,13 @@ p {
   padding: 1em 0em 1em;
 }
 
+.page6ver #boatGif {
+  position: absolute;
+  left: 21em;
+  bottom: 13em;
+  width: 11em;
+}
+
 
 /* Pagina 7 verticaal diepte */
 .page7ver {
