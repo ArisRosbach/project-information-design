@@ -423,13 +423,10 @@ p {
 }
 
 .pageEinde {
-
-  background-color: #93C9DB;
-
-  /* background-image: url(/images/pageChor.png);
+  background-image: url(/images/pageDhor.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left top; */
+  background-position: left top;
 }
 
 /* scrollbar weg */
