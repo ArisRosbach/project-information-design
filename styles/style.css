@@ -143,11 +143,7 @@ p {
   margin: 8em 0em 0em 8em
 }
 
-.pageIntro section h1 {
-  padding: 0em 0em 1em;
-}
-
-.pageIntro section p:nth-of-type(2) {
+.pageIntro section p {
   padding: 1em 0em 1em;
 }
 
@@ -191,7 +187,7 @@ p {
 }
 
 .page1ver section p {
-  padding: 2em 0em 1em;
+  padding: 1em 0em 1em;
 }
 
 /* Pagina 2 verticaal diepte */
