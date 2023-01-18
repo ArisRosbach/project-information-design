@@ -72,6 +72,19 @@ const buttonEindeL = document.getElementById("buttonEindeL");
 const buttonEindeB = document.getElementById("buttonEindeB");
 
 
+const mapIntro = document.getElementById("mapIntro");
+
+// function buttonVeranderdSection4() {
+//   imgElementSection4.classList.toggle("imgBewegen");
+//   console.log("ik ben ook geklikt");
+// }
+
+mapIntro.addEventListener("click", () => {
+  console.log("Ik ben geklikt");
+  mapIntro.classList.toggle("mapClicked");
+})
+
+
 // Intro buttons
 buttonIntroHor.addEventListener("click", () => {
   console.log("button clicker");
