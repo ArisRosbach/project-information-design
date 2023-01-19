@@ -193,10 +193,10 @@ button1verU.addEventListener("click", () => {
   intro.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-button2verU.addEventListener("click", () => {
-  console.log("button clicker");
-  mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
-});
+// button2verU.addEventListener("click", () => {
+//   console.log("button clicker");
+//   mozam1.scrollIntoView({ behavior: 'smooth', block: 'center' });
+// });
 
 button3verU.addEventListener("click", () => {
   console.log("button clicker");
@@ -362,4 +362,17 @@ mapChor.addEventListener("click", () => {
 mapDhor.addEventListener("click", () => {
   console.log("Ik ben geklikt");
   mapDhor.classList.toggle("mapClicked");
+})
+
+
+// <button value="page1ver" class="nav">
+//         <img src="/images/buttonUp.png" alt="Up" id="button2verU" class="button buttonUp">
+// </button>
+
+document.querySelectorAll("button.nav").forEach(button => {
+  button.addEventListener("click", e => {
+    let pagina = document.querySelector("."+e.target.parentElement.value);
+    console.log("."+e.target.parentElement.value);
+    pagina.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
 })
