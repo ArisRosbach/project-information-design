@@ -75,6 +75,10 @@ p {
   transition: 0.5s;
 }
 
+button {
+  display: none;
+}
+
 .button {
   cursor: pointer;
   position: absolute;
