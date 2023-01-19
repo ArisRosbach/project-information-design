@@ -296,17 +296,21 @@ button {
 .page2ver section div p {
   width: 20em;
   color: black;
-  background-color: #D88086;
+  background-color: #B3EEE6;
   padding: 0.5em;
   border-radius: 0.5em;
   margin: 0.8em;
 }
 
 .page2ver section div p:nth-of-type(2) {
-  background-color: #D9BC2C;
+  background-color: #D88086;
 }
 
 .page2ver section div p:nth-of-type(3) {
+  background-color: #D9BC2C;
+}
+
+.page2ver section div p:nth-of-type(4) {
   background-color: #9991BB;
 }
 
