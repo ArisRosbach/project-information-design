@@ -182,6 +182,17 @@ p {
   background-position: left top;
 }
 
+.page2hor section {
+  position: absolute;
+  right: 0em;
+  max-width: 37em;
+  margin: 3em 4em 0em 0em;
+}
+
+.page2hor section p {
+  padding: 1em 0em;
+}
+
 /* Pagina 3 horizontaal algemeen */
 .page3hor {
   background-image: url(/images/page3hor.png);
