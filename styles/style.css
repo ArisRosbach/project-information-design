@@ -76,7 +76,8 @@ p {
 }
 
 button {
-  display: none;
+  border: none;
+  display: flex;
 }
 
 .button {
