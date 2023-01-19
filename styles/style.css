@@ -201,6 +201,20 @@ p {
   background-position: left top;
 }
 
+.page3hor section {
+  margin: 6em 0em 0em 8em
+}
+
+.page3hor section h2 {
+  margin: 1em 0em 0em;
+  font-size: 1.3em;
+}
+
+.page3hor section p {
+  max-width: 40em;
+  padding: 1em 0em 1em;
+}
+
 /* Pagina 1 verticaal diepte */
 .page1ver {
   background-image: url(/images/page1ver.png);
