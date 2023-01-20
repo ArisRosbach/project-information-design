@@ -281,44 +281,16 @@ button {
   position: relative;
 }
 
-.page2verAC {
-  background-image: url(/images/page2verAC.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
-
-  color: white;
-  position: relative;
-}
-
 .page2verTT {
   background-image: url(/images/page2verTT.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
-
-  color: white;
-  position: relative;
 }
 
 .page2verMI {
   background-image: url(/images/page2verMI.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
-
-  color: white;
-  position: relative;
 }
 
 .page2verTN {
   background-image: url(/images/page2verTN.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
-
-  color: white;
-  position: relative;
 }
 
 
