@@ -118,18 +118,14 @@ const page2ver = document.getElementById("2ver");
 // Buttons Wereldbol
 document.querySelectorAll("button.involved").forEach(button => {
   button.addEventListener("click", e => {
-    console.log(e.target.id);
+    page2ver.className = 'page page2ver';
+
     if(e.target.id == "TT"){
-      page2ver.className = 'page page2ver';
       page2ver.classList.add("page2verTT");
     } else if (e.target.id == "TN"){
-      page2ver.className = 'page page2ver';
       page2ver.classList.add("page2verTN");
     } else if (e.target.id == "MI"){
-      page2ver.className = 'page page2ver';
       page2ver.classList.add("page2verMI");
-    } else {
-      page2ver.className = 'page page2ver';
-    }
+    } 
   });
 })
