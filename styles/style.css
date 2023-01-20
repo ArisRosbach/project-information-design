@@ -60,7 +60,7 @@ p {
 .map {
   cursor: pointer;
   position: absolute;
-  right: -12.7em;
+  right: -15.3em;
   top: 2em;
   transition: 0.5s;
 }
@@ -138,13 +138,15 @@ button {
 
 .pageIntro .buttonDown {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-
   color: white;
   position: absolute;
   text-align: center;
   bottom: 2em;
+}
+
+.pageIntro .buttonDown button {
+  justify-content: center;
 }
 
 .pageIntro .buttonRight {
