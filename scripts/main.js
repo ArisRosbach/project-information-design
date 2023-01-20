@@ -126,6 +126,8 @@ document.querySelectorAll("button.involved").forEach(button => {
       page2ver.classList.add("page2verTN");
     } else if (e.target.id == "MI"){
       page2ver.classList.add("page2verMI");
-    } 
+    } else {
+      page2ver.classList.add("page2verAC")
+    }
   });
 })
