@@ -293,8 +293,6 @@ button {
   background-image: url(/images/page2verTN.png);
 }
 
-
-
 .page2ver section {
   position: absolute;
   max-width: 40em;
@@ -316,6 +314,10 @@ button {
   padding: 0.5em;
   border-radius: 0.5em;
   margin: 0.8em;
+}
+
+.page2ver section div button:hover {
+  color: white;
 }
 
 .page2ver section div button:nth-of-type(2) {
