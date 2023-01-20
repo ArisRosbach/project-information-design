@@ -272,7 +272,7 @@ button {
 
 /* Pagina 2 verticaal diepte */
 .page2ver {
-  background-image: url(/images/page2ver.png);
+  background-image: url(/images/bolAC.png), url(/images/page2ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
@@ -286,16 +286,20 @@ button {
   height: 100%;
 }
 
+.page2ver1 {
+  background-image: url(/images/bolAC.png), url(/images/page2ver.png);
+}
+
 .page2verTT {
-  background-image: url(/images/page2verTT.png);
+  background-image: url(/images/bolTT.png), url(/images/page2ver.png);
 }
 
 .page2verMI {
-  background-image: url(/images/page2verMI.png);
+  background-image: url(/images/bolMI.png), url(/images/page2ver.png);
 }
 
 .page2verTN {
-  background-image: url(/images/page2verTN.png);
+  background-image: url(/images/bolTT.png), url(/images/page2ver.png);
 }
 
 .page2ver section {

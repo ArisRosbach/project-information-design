@@ -113,19 +113,19 @@ document.querySelectorAll("button.nav").forEach(button => {
 })
 
 
+const page2ver = document.getElementById("2ver");
+
 // Buttons Wereldbol
 document.querySelectorAll("button.involved").forEach(button => {
   button.addEventListener("click", e => {
+    page2ver.className = 'page page2ver';
 
     if(e.target.id == "TT"){
-      document.getElementById("world").src = "/images/bolTT.png";
+      page2ver.classList.add("page2verTT");
     } else if (e.target.id == "TN"){
-      document.getElementById("world").src = "/images/bolTT.png";
+      page2ver.classList.add("page2verTN");
     } else if (e.target.id == "MI"){
-      document.getElementById("world").src = "/images/bolMI.png";
-    } else {
-      document.getElementById("world").src = "/images/bolAC.png";
-    }
+      page2ver.classList.add("page2verMI");
+    } 
   });
-  
 })
