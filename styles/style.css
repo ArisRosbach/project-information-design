@@ -137,6 +137,10 @@ button {
 }
 
 .pageIntro .buttonDown {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
   color: white;
   position: absolute;
   text-align: center;
