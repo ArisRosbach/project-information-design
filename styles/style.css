@@ -287,15 +287,6 @@ button {
   position: relative;
 }
 
-#world {
-  position: absolute;
-  height: 100%;
-}
-
-.page2verAC {
-  background-image: url(/images/bolAC.png), url(/images/page2ver.png);
-}
-
 .page2verTT {
   background-image: url(/images/bolTT.png), url(/images/page2ver.png);
 }
@@ -305,7 +296,7 @@ button {
 }
 
 .page2verTN {
-  background-image: url(/images/bolTT.png), url(/images/page2ver.png);
+  background-image: url(/images/bolTN.png), url(/images/page2ver.png);
 }
 
 .page2ver section {
