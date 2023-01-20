@@ -148,6 +148,8 @@ button {
 }
 
 .pageIntro .buttonRight {
+  background: transparent;
+
   position: absolute;
   text-align: center;
   right: -7em;
