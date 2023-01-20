@@ -103,11 +103,33 @@ mapDhor.addEventListener("click", () => {
   mapDhor.classList.toggle("mapClicked");
 })
 
-// Buttons
+// Buttons nav
 document.querySelectorAll("button.nav").forEach(button => {
   button.addEventListener("click", e => {
     let pagina = document.querySelector("."+e.target.parentElement.value);
     console.log("."+e.target.parentElement.value);
     pagina.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+})
+
+
+const page2ver = document.getElementById("2ver");
+
+// Buttons Wereldbol
+document.querySelectorAll("button.involved").forEach(button => {
+  button.addEventListener("click", e => {
+    console.log(e.target.id);
+    if(e.target.id == "TT"){
+      page2ver.className = 'page page2ver';
+      page2ver.classList.add("page2verTT");
+    } else if (e.target.id == "TN"){
+      page2ver.className = 'page page2ver';
+      page2ver.classList.add("page2verTN");
+    } else if (e.target.id == "MI"){
+      page2ver.className = 'page page2ver';
+      page2ver.classList.add("page2verMI");
+    } else {
+      page2ver.className = 'page page2ver';
+    }
   });
 })
