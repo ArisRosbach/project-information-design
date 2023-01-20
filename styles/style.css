@@ -281,6 +281,48 @@ button {
   position: relative;
 }
 
+.page2verAC {
+  background-image: url(/images/page2verAC.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  color: white;
+  position: relative;
+}
+
+.page2verTT {
+  background-image: url(/images/page2verTT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  color: white;
+  position: relative;
+}
+
+.page2verMI {
+  background-image: url(/images/page2verMI.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  color: white;
+  position: relative;
+}
+
+.page2verTN {
+  background-image: url(/images/page2verTN.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  color: white;
+  position: relative;
+}
+
+
+
 .page2ver section {
   position: absolute;
   max-width: 40em;
@@ -293,8 +335,10 @@ button {
   text-align: center;
 }
 
-.page2ver section div p {
+.page2ver section div button {
   width: 20em;
+  cursor: pointer;
+  display: block;
   color: black;
   background-color: #B3EEE6;
   padding: 0.5em;
@@ -302,15 +346,15 @@ button {
   margin: 0.8em;
 }
 
-.page2ver section div p:nth-of-type(2) {
+.page2ver section div button:nth-of-type(2) {
   background-color: #D88086;
 }
 
-.page2ver section div p:nth-of-type(3) {
+.page2ver section div button:nth-of-type(3) {
   background-color: #D9BC2C;
 }
 
-.page2ver section div p:nth-of-type(4) {
+.page2ver section div button:nth-of-type(4) {
   background-color: #9991BB;
 }
 
