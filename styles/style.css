@@ -424,8 +424,9 @@ button {
 .page5ver section {
   position: absolute;
   right: 0em;
+  bottom: 8em;
   max-width: 37em;
-  margin: 8em 4em 0em 0em;
+  margin: 0em 4em 0em 0em;
 }
 
 .page5ver section p {
