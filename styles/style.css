@@ -527,8 +527,9 @@ button {
 
 .pageBhor section {
   display: flex;
-  justify-content: space-around;
-  margin: 0em 0em 0em 0em;
+  justify-content: center;
+  gap: 5em;
+  margin: 2em 0em;
 }
 
 .pageBhor section p {
@@ -563,8 +564,9 @@ button {
 
 .pageChor section {
   display: flex;
-  justify-content: space-around;
-  margin: 0em 0em 0em 0em;
+  justify-content: center;
+  gap: 5em;
+  margin: 2em 0em;
 }
 
 .pageChor section p {
