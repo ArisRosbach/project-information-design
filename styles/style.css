@@ -27,6 +27,7 @@ p {
   word-spacing: 4px;
 }
 
+
 /* Scroll snap laten werken */
 .body {
   display: flex;
@@ -422,6 +423,13 @@ button {
 
 .page5ver section {
   position: absolute;
+  right: 0em;
+  max-width: 37em;
+  margin: 8em 4em 0em 0em;
+}
+
+.page5ver section p {
+  padding: 1em 0em;
 }
 
 /* Pagina 6 verticaal diepte */
