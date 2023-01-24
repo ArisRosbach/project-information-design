@@ -1,17 +1,21 @@
 # Project Information Design
 <p align="center">
-  <img width="60%" src="./images/SOMO.JPG" />
+  <img width="90%" src="https://github.com/ArisRosbach/project-information-design/blob/main/images/HorizontaalEind.png" />
 </p>
 
 ## Over dit project 📊
-Dit project bevat een site voor het SOMO project
-...Hier komt ooit nog meer toelichting...
+Dit project bevat een site die uitleg en inzicht geeft over de belastingontwijking binnen het land Mozambique. <br>
+Voor deze opdracht is het de bedoeling dat we een interactieve visualisatie maken gebaseerd op aangeleverde data en teksten van [SOMO](https://www.somo.nl/nl/). Het doel is namelijk om niet text-based te zijn maar meer visueel een verhaal te vertellen.
 
 ### Concept 🏰
 Dit project bevat een site die belastingontwijking uitlegt met betrekking tot Mozambique. <br>
 De data die gebruikt wordt komt van het bedrijf [SOMO](https://www.somo.nl/nl/)
 
-...Hier komt een beschrijving van wat het is...
+Het is een interactieve website waar er door middel van scrollen (scroll snap) informatie wordt gedeeld met de gebruiker. <br>
+Hierbij is zowel horizontaal als verticaal een verhaal vertelt die op elkaar aansluit.
+
+De bedoeling is dat je horizontaal een algemene uitleg krijgt over belastingontwijking. Om verticaal letterlijk de diepte in te duiken als het gaat om Mozambique. <br>
+Je kan dus van links naar rechts scrollen maar ook van boven naar onderen.
 
 
 ## Installatie 💻
@@ -37,8 +41,6 @@ In de terminal vind je vervolgens een link naar een localhost. Open deze in je b
 
 ## Documentatie 📚
 De documentatie van dit project kun je vinden in de [wiki](https://github.com/ArisRosbach/project-information-design/wiki) van deze repository. <br>
-...Hier lees je over ...
-
 
 ## Lincense ⚖
 Deze repository is licensed onder de [MIT License](https://github.com/ArisRosbach/project-information-design/blob/main/LICENSE)
