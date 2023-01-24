@@ -47,8 +47,14 @@ p {
   word-spacing: 4px;
 }
 
+section {
+  padding: 2em;
+}
 
-/* Scroll snap laten werken */
+
+/* Scroll snap */
+/* ******************************************************************** */
+/* ******************************************************************** */
 .body {
   display: flex;
   flex-direction: column;
@@ -78,6 +84,9 @@ p {
   scroll-snap-type: x mandatory;
 }
 
+/* Styling map buttons */
+/* ******************************************************************** */
+/* ******************************************************************** */
 .map {
   cursor: pointer;
   position: absolute;
@@ -96,6 +105,9 @@ p {
   transition: 0.5s;
 }
 
+/* Styling nav buttons */
+/* ******************************************************************** */
+/* ******************************************************************** */
 button {
   border: none;
   display: flex;
@@ -111,7 +123,6 @@ button {
 
 .buttonUp {
   top: 2em;
-
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -120,7 +131,6 @@ button {
 
 .buttonDown {
   bottom: 0em;
-
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -129,14 +139,12 @@ button {
 
 .buttonRight {
   right: 0em;
-
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
 .buttonLeft {
   left: 2em;
-
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -146,10 +154,11 @@ button {
   top: 2em;
 }
 
-/* Styling van de losse pagina's */
-/* ********************************************* */
+/* Styling pages*/
+/* ******************************************************************** */
+/* ******************************************************************** */
 
-/* Intro pagina */
+/* Intro page */
 .pageIntro {
   background-image: url(/images/pageIntro.png);
   background-size: cover;
@@ -207,7 +216,7 @@ button {
   text-align: center;
 }
 
-/* Pagina 1 horizontaal algemeen */
+/* page horizontal 1 */
 .page1hor {
   background-image: url(/images/page1hor.png);
   background-size: cover;
@@ -246,7 +255,7 @@ button {
   text-align: right;
 }
 
-/* Pagina 2 horizontaal algemeen */
+/* page horizontal 2 */
 .page2hor {
   background-image: url(/images/page2hor.png);
   background-size: cover;
@@ -265,7 +274,7 @@ button {
   padding: 1em 0em;
 }
 
-/* Pagina 3 horizontaal algemeen */
+/* page horizontal 3 */
 .page3hor {
   background-image: url(/images/page3hor.png);
   background-size: cover;
@@ -287,7 +296,7 @@ button {
   padding: 1em 0em 1em;
 }
 
-/* Pagina 1 verticaal diepte */
+/* page vertical 1 */
 .page1ver {
   background-image: url(/images/page1ver.png);
   background-size: cover;
@@ -306,7 +315,7 @@ button {
   padding: 1em 0em 1em;
 }
 
-/* Pagina 2 verticaal diepte */
+/* page vertical 2 */
 .page2ver {
   background-image: url(/images/bolAC.png), url(/images/page2ver.png);
   background-size: cover;
@@ -368,7 +377,7 @@ button {
   background-color: var(--somo-purple);
 }
 
-/* Pagina 3 verticaal diepte */
+/* page vertical 3 */
 .page3ver {
   background-image: url(/images/page3ver.png);
   background-size: cover;
@@ -389,7 +398,7 @@ button {
   margin: auto;
 }
 
-/* Pagina 4 verticaal diepte */
+/* page vertical 4 */
 .page4ver {
   background-color: var(--background-blue);
   position: relative;
@@ -432,7 +441,7 @@ button {
   padding: 1em 0em;
 }
 
-/* Pagina 5 verticaal diepte */
+/* page vertical 5 */
 .page5ver {
   background-color: var(--background-blue);
   background-image: url(/images/page5ver.png);
@@ -453,7 +462,7 @@ button {
   padding: 1em 0em;
 }
 
-/* Pagina 6 verticaal diepte */
+/* page vertical 6 */
 .page6ver {
   background-color: var(--background-blue);
   background-image: url(/images/page6ver.png);
@@ -474,7 +483,7 @@ button {
 }
 
 
-/* Pagina 7 verticaal diepte */
+/* page vertical 7 */
 .page7ver {
   background-image: url(/images/page7ver.png);
   background-size: cover;
@@ -509,7 +518,7 @@ button {
   padding-inline-start: 1em;
 }
 
-/* Pagina 8 verticaal diepte */
+/* page vertical 8 */
 .page8ver {
   background-image: url(/images/page8ver.png);
   background-size: cover;
@@ -528,8 +537,7 @@ button {
   padding: 1em 0em;
 }
 
-
-/* advies Mozambique A*/
+/* page horizontal A */
 .pageAhor {
   background-image: url(/images/pageAhor.png);
   background-size: cover;
@@ -546,7 +554,7 @@ button {
   padding: 1em 0em 1em;
 }
 
-/* advies Mozambique B */
+/* page horizontal B */
 .pageBhor {
   background-image: url(/images/pageBhor.png);
   background-size: cover;
@@ -583,7 +591,7 @@ button {
   max-width: 33em;
 }
 
-/* advies Mozambique C */
+/* page horizontal C */
 .pageChor {
   background-image: url(/images/pageChor.png);
   background-size: cover;
@@ -602,7 +610,7 @@ button {
   padding: 1em 0em;
 }
 
-/* advies Mozambique D */
+/* page end */
 .pageEnd {
   background-image: url(/images/pageEnd.png);
   background-size: cover;
@@ -647,18 +655,14 @@ footer {
   width: 100%;
 }
 
-/* scrollbar weg */
+
+/* Delete scrollbar */
+/* ******************************************************************** */
+/* ******************************************************************** */
 .body::-webkit-scrollbar {
   display: none;
-  /* for Chrome, Safari, and Opera */
 }
 
 .hor-slider::-webkit-scrollbar {
   display: none;
-  /* for Chrome, Safari, and Opera */
-}
-
-/* algemene styling pages */
-section {
-  padding: 2em;
 }
