@@ -3,13 +3,12 @@ import '../styles/style.css'
 
 console.log('Project Information Design');
 
-// Constanten
+// Constants
 const page2ver = document.getElementById("2ver");
 
 // Buttons maps
 document.querySelectorAll("button.maps").forEach(button => {
   button.addEventListener("click", e => {
-
     let map = document.getElementById(e.target.id);
 
     map.classList.toggle("mapClicked");
@@ -20,7 +19,7 @@ document.querySelectorAll("button.maps").forEach(button => {
 document.querySelectorAll("button.nav").forEach(button => {
   button.addEventListener("click", e => {
     let page = document.querySelector("."+e.target.parentElement.value);
-    console.log("."+e.target.parentElement.value);
+    
     page.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
 })
