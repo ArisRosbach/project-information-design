@@ -6,6 +6,26 @@
   padding: 0;
 }
 
+/* Variabelen */
+/* ******************************************************************** */
+/* ******************************************************************** */
+:root {
+  --somo-red: #e30513;
+
+  --somo-green: #717457;
+  --somo-pink: #F18188;
+  --somo-yellow: #E4BC00;
+  --somo-purple: #9D92BE;
+
+  --background-blue: #93C9DB;
+ 
+  --basic-white: #ffffff;
+  --basic-black: #000000;
+}
+
+/* Algemene stijling */
+/* ******************************************************************** */
+/* ******************************************************************** */
 body {
   width: 100%;
   height: 100%;
@@ -140,7 +160,7 @@ button {
 .pageIntro .buttonDown {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: var(--basic-white);
   position: absolute;
   text-align: center;
   bottom: 2em;
@@ -274,7 +294,7 @@ button {
   background-repeat: no-repeat;
   background-position: left top;
 
-  color: white;
+  color: var(--basic-white);
 }
 
 .page1ver section {
@@ -293,7 +313,7 @@ button {
   background-repeat: no-repeat;
   background-position: left top;
 
-  color: white;
+  color: var(--basic-white);
   position: relative;
 }
 
@@ -325,27 +345,27 @@ button {
   width: 20em;
   cursor: pointer;
   display: block;
-  color: black;
-  background-color: #71735a;
+  color: var(--basic-black);
+  background-color: var(--somo-green);
   padding: 0.5em;
   border-radius: 0.5em;
   margin: 0.8em;
 }
 
 .page2ver section div button:hover {
-  color: white;
+  color: var(--basic-white);
 }
 
 .page2ver section div button:nth-of-type(2) {
-  background-color: #D88086;
+  background-color: var(--somo-pink);
 }
 
 .page2ver section div button:nth-of-type(3) {
-  background-color: #D9BC2C;
+  background-color: var(--somo-yellow);
 }
 
 .page2ver section div button:nth-of-type(4) {
-  background-color: #9991BB;
+  background-color: var(--somo-purple);
 }
 
 /* Pagina 3 verticaal diepte */
@@ -355,7 +375,7 @@ button {
   background-repeat: no-repeat;
   background-position: left top;
 
-  color: white;
+  color: var(--basic-white);
 }
 
 .page3ver section p {
@@ -371,7 +391,7 @@ button {
 
 /* Pagina 4 verticaal diepte */
 .page4ver {
-  background-color: #93C9DB;
+  background-color: var(--background-blue);
   position: relative;
 }
 
@@ -414,7 +434,7 @@ button {
 
 /* Pagina 5 verticaal diepte */
 .page5ver {
-  background-color: #93C9DB;
+  background-color: var(--background-blue);
   background-image: url(/images/page5ver.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -435,13 +455,13 @@ button {
 
 /* Pagina 6 verticaal diepte */
 .page6ver {
-  background-color: #93C9DB;
+  background-color: var(--background-blue);
   background-image: url(/images/page6ver.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
 
-  color: white;
+  color: var(--basic-white);
 }
 
 .page6ver section {
@@ -461,7 +481,7 @@ button {
   background-repeat: no-repeat;
   background-position: left top;
 
-  color: white;
+  color: var(--basic-white);
 }
 
 .page7ver section {
@@ -496,7 +516,7 @@ button {
   background-repeat: no-repeat;
   background-position: left top;
 
-  color: white;
+  color: var(--basic-white);
 }
 
 .page8ver section {
@@ -605,7 +625,7 @@ button {
 }
 
 .pageEnd .pdf a {
-  color: #e30513;
+  color: var(--somo-red);
   text-decoration: underline;
 }
 
@@ -618,7 +638,7 @@ button {
 }
 
 footer {
-  color: white;
+  color: var(--basic-white);
   position: absolute;
   bottom: 1em;
   left: 50%;
