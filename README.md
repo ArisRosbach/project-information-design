@@ -7,7 +7,7 @@
 Dit project bevat een site die uitleg en inzicht geeft over de belastingontwijking binnen het land Mozambique. <br>
 Voor deze opdracht is het de bedoeling dat we een interactieve visualisatie maken gebaseerd op aangeleverde data en teksten van [SOMO](https://www.somo.nl/nl/). Het doel is namelijk om niet text-based te zijn maar meer visueel een verhaal te vertellen.
 
-### Concept 🏰
+### Concept 🐟
 Dit project bevat een site die belastingontwijking uitlegt met betrekking tot Mozambique. <br>
 De data die gebruikt wordt komt van het bedrijf [SOMO](https://www.somo.nl/nl/)
 
